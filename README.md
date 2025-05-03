@@ -56,11 +56,27 @@ Podés llevarte LuzLink a otra casa. Solo necesitás que un electricista desinst
 - **Teléfono:** [+54 9 11 2377-4309](tel:+5491123774309)
 
 ---
+ <section class="contact">
+    <h2>¿Te interesa LuzLink? ¡Contactanos!</h2>
+    <p>Si querés saber más sobre el proyecto, recibir asesoramiento personalizado o pedir un presupuesto, escribinos:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:thiago.martino.fernandez2008@gmail.com">thiago.martino.fernandez2008@gmail.com</a></li>
+        <li><strong>Teléfono:</strong> <a href="tel:+5491123774309">+54 9 11 2377-4309</a></li>
+    </ul>
 
-**Web:** [https://tunombredeusuario.github.io/luzlink/](https://tunombredeusuario.github.io/luzlink/)  
-*(Reemplaza "tunombredeusuario" y "luzlink" por los datos reales de tu repositorio)*
+    <div class="formulario">
+        <h3>Envíanos tu mensaje</h3>
+        <form action="https://formspree.io/f/your-formspree-endpoint" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
----
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-**¿Listo para copiar y pegar en tu repositorio!**  
-Si querés agregar imágenes o personalizarlo aún más, avisame y te ayudo.
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+</section>
